@@ -1,1 +1,95 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    color: #333;
+}
 
+header {
+    background: linear-gradient(135deg, #2c3e50, #2980b9);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: -30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.shops {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.shop-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.shop-item {
+    background: #fff;
+    padding: 20px;
+    border: 2px solid #2980b9;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.shop-item:hover {
+    background: #2980b9;
+    color: white;
+}
+
+.booking {
+    background: #fff;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Cairo';
+}
+
+button {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
