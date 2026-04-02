@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة الصناعية الموثوقة</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
+    <header>
+        <div class="container">
+            <h1>دليل الصناعية الذكي</h1>
+            <p>نحن وسيطك لضمان الجودة ومنع الغش</p>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="card">
+            <h3>⏱️ وفر وقتك</h3>
+            <p>لا داعي للدوران في الصناعية، نصلك بالمحل المناسب فوراً.</p>
+        </div>
+        <div class="card">
+            <h3>🛡️ ضمان وأمان</h3>
+            <p>نحن نضمن لك جودة القطع والشغل، ولا نسمح بأي استغلال.</p>
+        </div>
+    </section>
+
+    <section class="shops">
+        <h2>أقسام الصناعية</h2>
+        <div class="shop-grid">
+            <div class="shop-item">ميكانيكا عامة</div>
+            <div class="shop-item">كهرباء سيارات</div>
+            <div class="shop-item">سمكرة ورش</div>
+            <div class="shop-item">فحص كمبيوتر</div>
+        </div>
+    </section>
+
+    <section class="booking">
+        <h2>اطلب خدمتك الآن</h2>
+        <form id="orderForm">
+            <input type="text" placeholder="اسمك الكريم" required>
+            <input type="tel" placeholder="رقم الجوال" required>
+            <select>
+                <option value="">اختر نوع الخدمة</option>
+                <option value="mech">ميكانيكا</option>
+                <option value="elec">كهرباء</option>
+            </select>
+            <textarea placeholder="وصف المشكلة أو القطعة المطلوبة"></textarea>
+            <button type="submit">إرسال الطلب للوسيط</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>حقوق النشر محفوظة - منصة الصناعية 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
